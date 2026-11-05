@@ -1,0 +1,46 @@
+﻿{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "advancement.treasure_chickens.farmer.title"
+    },
+    "description": {
+      "translate": "advancement.treasure_chickens.farmer.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "treasure_chickens:first_chicken",
+  "criteria": {
+    "coal": {
+      "trigger": "treasure_chickens:chicken_obtained"
+    },
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "treasure_chickens:diamond_chicken_spawn_egg"
+          }
+        ]
+      }
+    },
+    "xp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "treasure_chickens:xp_chicken_spawn_egg"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 75
+  }
+}

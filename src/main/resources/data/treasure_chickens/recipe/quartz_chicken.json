@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "treasure_chickens",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#E#",
+    "###"
+  ],
+  "key": {
+    "#": { "item": "minecraft:quartz" },
+    "E": { "item": "minecraft:egg" }
+  },
+  "result": {
+    "id": "treasure_chickens:quartz_chicken_spawn_egg",
+    "count": 1
+  }
+}

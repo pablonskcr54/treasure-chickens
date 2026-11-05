@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All rights reserved"
+
+[[mods]]
+modId="treasure_chickens"
+version="1.0.0"
+displayName="Treasure Chickens"
+authors="You"
+description='''
+Курицы, которые несут ценные предметы — алмазы и прочее.
+'''
+
+[[dependencies.treasure_chickens]]
+    modId="neoforge"
+    mandatory=true
+    versionRange="[21,)"
+
+[[dependencies.treasure_chickens]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"

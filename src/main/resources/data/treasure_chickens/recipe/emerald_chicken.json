@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "treasure_chickens",
+  "category": "misc",
+  "pattern": [
+    "#$#",
+    "$E$",
+    "#$#"
+  ],
+  "key": {
+    "#": { "item": "minecraft:emerald" },
+    "$": { "item": "minecraft:gold_ingot" },
+    "E": { "item": "minecraft:egg" }
+  },
+  "result": {
+    "id": "treasure_chickens:emerald_chicken_spawn_egg",
+    "count": 1
+  }
+}

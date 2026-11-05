@@ -1,0 +1,126 @@
+{
+  "display": {
+    "icon": {
+      "id": "treasure_chickens:xp_chicken_spawn_egg"
+    },
+    "title": {
+      "translate": "advancement.treasure_chickens.all_chickens.title"
+    },
+    "description": {
+      "translate": "advancement.treasure_chickens.all_chickens.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "treasure_chickens:diamond_chicken",
+  "criteria": {
+    "coal": {
+      "trigger": "treasure_chickens:chicken_obtained"
+    },
+    "iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "treasure_chickens:iron_chicken_spawn_egg"
+          }
+        ]
+      }
+    },
+    "gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "treasure_chickens:gold_chicken_spawn_egg"
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "treasure_chickens:emerald_chicken_spawn_egg"
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "treasure_chickens:diamond_chicken_spawn_egg"
+          }
+        ]
+      }
+    },
+    "netherite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "treasure_chickens:netherite_chicken_spawn_egg"
+          }
+        ]
+      }
+    },
+    "quartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "treasure_chickens:quartz_chicken_spawn_egg"
+          }
+        ]
+      }
+    },
+    "prismarine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "treasure_chickens:prismarine_chicken_spawn_egg"
+          }
+        ]
+      }
+    },
+    "slime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "treasure_chickens:slime_chicken_spawn_egg"
+          }
+        ]
+      }
+    },
+    "ender_pearl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "treasure_chickens:ender_pearl_chicken_spawn_egg"
+          }
+        ]
+      }
+    },
+    "xp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "treasure_chickens:xp_chicken_spawn_egg"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+}

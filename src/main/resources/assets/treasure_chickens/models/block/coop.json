@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "treasure_chickens:block/coop_side",
+    "up": "treasure_chickens:block/coop_top",
+    "down": "treasure_chickens:block/coop_bottom",
+    "north": "treasure_chickens:block/coop_front",
+    "south": "treasure_chickens:block/coop_side",
+    "east": "treasure_chickens:block/coop_side",
+    "west": "treasure_chickens:block/coop_side"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "treasure_chickens:coop"
+    },
+    "title": {
+      "translate": "advancement.treasure_chickens.coop.title"
+    },
+    "description": {
+      "translate": "advancement.treasure_chickens.coop.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "treasure_chickens:first_chicken",
+  "criteria": {
+    "craft_coop": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "treasure_chickens:coop"
+      }
+    }
+  }
+}

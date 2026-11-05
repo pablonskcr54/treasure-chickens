@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "treasure_chickens:gold_chicken_spawn_egg"
+    },
+    "title": {
+      "translate": "advancement.treasure_chickens.feeding.title"
+    },
+    "description": {
+      "translate": "advancement.treasure_chickens.feeding.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "treasure_chickens:first_chicken",
+  "criteria": {
+    "craft_gold_egg": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "treasure_chickens:gold_chicken_spawn_egg"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 60
+  }
+}

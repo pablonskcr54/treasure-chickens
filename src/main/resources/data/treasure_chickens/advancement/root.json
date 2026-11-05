@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "treasure_chickens:coal_chicken_spawn_egg"
+    },
+    "title": {
+      "translate": "advancement.treasure_chickens.root.title"
+    },
+    "description": {
+      "translate": "advancement.treasure_chickens.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "treasure_chickens:textures/gui/advancements/background.png"
+  },
+  "criteria": {
+    "has_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:coal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_coal"
+    ]
+  ]
+}

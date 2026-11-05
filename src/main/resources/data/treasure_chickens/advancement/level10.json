@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_ingot"
+    },
+    "title": {
+      "translate": "advancement.treasure_chickens.level10.title"
+    },
+    "description": {
+      "translate": "advancement.treasure_chickens.level10.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "treasure_chickens:level5",
+  "criteria": {
+    "reach_level_10": {
+      "trigger": "treasure_chickens:chicken_level_up",
+      "conditions": {
+        "level": 10
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250
+  }
+}

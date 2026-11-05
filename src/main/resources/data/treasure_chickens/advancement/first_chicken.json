@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "treasure_chickens:coal_chicken_spawn_egg"
+    },
+    "title": {
+      "translate": "advancement.treasure_chickens.first_chicken.title"
+    },
+    "description": {
+      "translate": "advancement.treasure_chickens.first_chicken.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "treasure_chickens:root",
+  "criteria": {
+    "obtain_chicken": {
+      "trigger": "treasure_chickens:chicken_obtained"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}
